@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeaVault — Idea Detail</title>
+  <meta name="description" content="Detailed breakdown of a startup idea from IdeaVault.">
+  <meta property="og:type" content="article">
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="IdeaVault home">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect x="2" y="2" width="28" height="28" rx="6" fill="var(--color-primary)" opacity="0.15"/>
+          <path d="M16 7L19.5 13H22L17.5 20.5H20L12 26L14.5 20.5H12L16.5 13H14L16 7Z" fill="var(--color-primary)" stroke="var(--color-primary)" stroke-width="0.5" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">IdeaVault</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Ideas</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <button data-theme-toggle class="theme-toggle" aria-label="Switch to light mode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Content populated by JS -->
+  <div id="idea-content"></div>
+
+  <script src="app.js"></script>
+  <script>
+    // Theme toggle (same as app.js, re-runs for this page)
+    (function () {
+      const t = document.querySelector('[data-theme-toggle]');
+      const r = document.documentElement;
+      let d = r.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      r.setAttribute('data-theme', d);
+      function updateIcon() {
+        if (!t) return;
+        t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+        t.innerHTML = d === 'dark'
+          ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+      }
+      updateIcon();
+      if (t) t.addEventListener('click', () => {
+        d = d === 'dark' ? 'light' : 'dark';
+        r.setAttribute('data-theme', d);
+        updateIcon();
+      });
+    })();
+
+    async function loadIdeaDetail() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const container = document.getElementById('idea-content');
+
+      try {
+        const res = await fetch('ideas.json');
+        const ideas = await res.json();
+        const idea = ideas.find(i => i.id === id);
+
+        if (!idea) {
+          container.innerHTML = `
+            <div style="padding: 4rem 1rem; text-align: center;">
+              <h2 style="font-family: var(--font-display); margin-bottom: 1rem;">Idea not found</h2>
+              <a href="index.html" style="color: var(--color-primary);">← Back to all ideas</a>
+            </div>`;
+          document.title = 'IdeaVault — Not found';
+          return;
+        }
+
+        document.title = `IdeaVault — ${idea.title}`;
+        document.querySelector('meta[name="description"]').setAttribute('content', idea.tagline);
+
+        const formatDate = (dateStr) => {
+          const d = new Date(dateStr + 'T00:00:00');
+          return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
+        };
+
+        const risksList = idea.risks.split('. ').filter(Boolean).map(r =>
+          `<span class="risk-tag">${r.replace(/\.$/, '')}</span>`
+        ).join('');
+
+        const sourcesList = idea.sources.map(s => {
+          try {
+            const u = new URL(s);
+            return `<li><a href="${s}" target="_blank" rel="noopener">${u.hostname.replace('www.', '')}</a></li>`;
+          } catch { return `<li><a href="${s}" target="_blank" rel="noopener">${s}</a></li>`; }
+        }).join('');
+
+        container.innerHTML = `
+          <!-- Hero -->
+          <section class="idea-detail-hero">
+            <div class="container">
+              <nav class="breadcrumb" aria-label="breadcrumb">
+                <a href="index.html">IdeaVault</a>
+                <span>›</span>
+                <span>${idea.category}</span>
+                <span>›</span>
+                <span>#${idea.id}</span>
+              </nav>
+              <div class="detail-meta-row">
+                <span class="idea-cat">${idea.category}</span>
+                <span class="stage-badge">${idea.stage}</span>
+                <span class="idea-date">${formatDate(idea.date)}</span>
+              </div>
+              <h1 class="detail-title">${idea.title}</h1>
+              <p class="detail-tagline">${idea.tagline}</p>
+            </div>
+          </section>
+
+          <!-- Body -->
+          <section class="detail-body">
+            <div class="container">
+              <div class="detail-grid">
+                <!-- Main content -->
+                <article class="detail-main">
+                  <div class="detail-section">
+                    <div class="detail-section-label">The Problem</div>
+                    <h2 class="detail-section-title">What pain does this solve?</h2>
+                    <p>${idea.problem}</p>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">The Solution</div>
+                    <h2 class="detail-section-title">How it works</h2>
+                    <p>${idea.solution}</p>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">Business Model</div>
+                    <h2 class="detail-section-title">How it makes money</h2>
+                    <p>${idea.business_model}</p>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">Go-to-Market</div>
+                    <h2 class="detail-section-title">How you'd acquire customers</h2>
+                    <p>${idea.go_to_market}</p>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">The Moat</div>
+                    <h2 class="detail-section-title">Why this is defensible</h2>
+                    <p>${idea.moat}</p>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">Key Risks</div>
+                    <h2 class="detail-section-title">What could go wrong</h2>
+                    <div style="margin-top: var(--space-3); display: flex; flex-wrap: wrap;">${risksList}</div>
+                  </div>
+                  <div class="detail-section">
+                    <div class="detail-section-label">Founder Fit</div>
+                    <h2 class="detail-section-title">Who should build this?</h2>
+                    <p>${idea.founder_fit}</p>
+                  </div>
+                </article>
+
+                <!-- Sidebar -->
+                <aside class="detail-sidebar">
+                  <div class="sidebar-card">
+                    <h3 class="sidebar-card-title">Quick Stats</h3>
+                    <div class="sidebar-stat">
+                      <span class="sidebar-stat-label">Market Size</span>
+                      <span class="sidebar-stat-value">${idea.market_size}</span>
+                    </div>
+                    <div class="sidebar-stat">
+                      <span class="sidebar-stat-label">Stage</span>
+                      <span class="sidebar-stat-value">${idea.stage}</span>
+                    </div>
+                    <div class="sidebar-stat">
+                      <span class="sidebar-stat-label">Category</span>
+                      <span class="sidebar-stat-value">${idea.category}</span>
+                    </div>
+                    <div class="sidebar-stat">
+                      <span class="sidebar-stat-label">Published</span>
+                      <span class="sidebar-stat-value">${formatDate(idea.date)}</span>
+                    </div>
+                  </div>
+
+                  <div class="sidebar-card">
+                    <h3 class="sidebar-card-title">Why Now</h3>
+                    <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.7;">${idea.why_now}</p>
+                  </div>
+
+                  <div class="sidebar-card">
+                    <h3 class="sidebar-card-title">Similar Companies</h3>
+                    <p style="font-size: var(--text-sm); color: var(--color-text-muted); line-height: 1.7;">${idea.similar_companies}</p>
+                  </div>
+
+                  <div class="sidebar-card">
+                    <h3 class="sidebar-card-title">Sources</h3>
+                    <ul class="sources-list">${sourcesList}</ul>
+                  </div>
+                </aside>
+              </div>
+
+              <div style="margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--color-divider);">
+                <a href="index.html" style="display: inline-flex; align-items: center; gap: var(--space-2); color: var(--color-text-muted); font-size: var(--text-sm);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                  Back to all ideas
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <footer class="footer">
+            <div class="container footer-inner">
+              <div class="footer-brand">
+                <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                  <rect x="2" y="2" width="28" height="28" rx="6" fill="var(--color-primary)" opacity="0.2"/>
+                  <path d="M16 7L19.5 13H22L17.5 20.5H20L12 26L14.5 20.5H12L16.5 13H14L16 7Z" fill="var(--color-primary)"/>
+                </svg>
+                <span>IdeaVault</span>
+              </div>
+              <p class="footer-copy">New idea daily. Built in public. &copy; 2026 IdeaVault.</p>
+            </div>
+          </footer>
+        `;
+
+      } catch (e) {
+        console.error(e);
+        container.innerHTML = '<p style="padding:4rem 1rem;text-align:center;color:var(--color-text-muted)">Failed to load idea. Please try again.</p>';
+      }
+    }
+
+    const header2 = document.getElementById('header');
+    if (header2) {
+      window.addEventListener('scroll', () => {
+        header2.style.boxShadow = window.scrollY > 4 ? 'var(--shadow-sm)' : '';
+      }, { passive: true });
+    }
+
+    loadIdeaDetail();
+  </script>
+</body>
+</html>

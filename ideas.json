@@ -1,0 +1,26 @@
+[
+  {
+    "id": "001",
+    "slug": "agetech-concierge",
+    "date": "2026-03-31",
+    "title": "AgeTech Concierge — AI care navigator for families with aging parents",
+    "tagline": "The invisible layer that coordinates elder care so families don't burn out.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "$17 trillion Silver Economy globally by 2025",
+    "problem": "When a parent turns 75+, managing their care becomes a second full-time job for adult children. Appointments, medications, insurance claims, home safety assessments, and social isolation all fall on family members with no coordination layer between them. There are hundreds of point solutions — telehealth apps, pill dispensers, fall sensors — but no orchestration layer that ties it all together.",
+    "solution": "An AI-powered care concierge that acts as the command center for a senior's care. It ingests data from wearables, medical records, and family inputs, then proactively surfaces tasks: 'Your mum's next cardiology appointment is in 3 days — do you want me to arrange transport?' It handles insurance paperwork, medication reminders, and connects the family via a shared dashboard. Think Notion meets a geriatric care manager.",
+    "business_model": "B2C subscription at $79/month per family. B2B2C via employer benefits (30M+ US adults are caregivers who lose productivity — employers pay for this). Enterprise tier for assisted living facilities to offer residents' families as a premium add-on.",
+    "why_now": "1 in 6 people globally will be 60+ by 2030. Less than 1% of VC goes to aging-focused startups. AI agent coordination tools are now mature enough to handle real workflow orchestration across health, logistics, and finance APIs.",
+    "moat": "Data flywheel — the more care events it handles, the more predictive it becomes. Switching cost is high once a family's health history, insurance, and care network is inside the platform.",
+    "go_to_market": "Partner with employer HR platforms (Workday, Rippling) to offer as a caregiving benefit. Target the 53 million unpaid caregivers in the US. Content marketing via guilt-free caregiving communities.",
+    "risks": "Healthcare data regulation (HIPAA). Fragmented provider integrations. Requires trust in a sensitive domain — brand and tone are critical.",
+    "similar_companies": "Honor (home care staffing), Papa (companion care), Homethrive (employer benefit), Wellthy (care concierge — closest comp, no AI layer)",
+    "founder_fit": "Ideal for founders with healthcare, family caregiving, or enterprise HR benefits experience.",
+    "sources": [
+      "https://stormy.ai/blog/silver-economy-startups-aging-population-market-trends",
+      "https://www.longevity-book.com/post/1-billion-seniors-trillions-in-opportunity-the-rise-of-agetech-and-the-silver-economy",
+      "https://www.puregreenfranchise.com/blog/best-business-to-start-in-2026/"
+    ]
+  }
+]

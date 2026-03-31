@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "s-maxage=3600, stale-while-revalidate" }
+      ]
+    },
+    {
+      "source": "/ideas.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "s-maxage=300, stale-while-revalidate" }
+      ]
+    }
+  ]
+}
