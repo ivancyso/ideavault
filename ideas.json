@@ -22,5 +22,29 @@
       "https://www.longevity-book.com/post/1-billion-seniors-trillions-in-opportunity-the-rise-of-agetech-and-the-silver-economy",
       "https://www.puregreenfranchise.com/blog/best-business-to-start-in-2026/"
     ]
+  },
+  {
+    "id": "002",
+    "slug": "subpay-subcontractor-payment-os",
+    "date": "2026-04-01",
+    "title": "SubPay — The payment operating system for construction subcontractors",
+    "tagline": "Turn 56-day waits into 48-hour payments without factoring fees.",
+    "category": "FinTech",
+    "stage": "Idea",
+    "market_size": "$2.2 trillion US construction industry; $280B drained annually by payment delays",
+    "problem": "Subcontractors in construction are the industry's invisible bankers. They complete work, pay for materials and labor upfront, then wait an average of 56 days to get paid — sometimes 90 to 120 days. The 2025 National Subcontractor Market Report found that 77% of subs cover material costs out of pocket while waiting, 43% lack working capital for unexpected expenses, and 1 in 3 draws from personal savings to cover cash deficits. The root cause is not just slow GCs — it is that pay application submission, approval tracking, lien waiver exchange, and financing are all handled in disconnected tools or by hand, which creates compounding delays at every step.",
+    "solution": "SubPay is a mobile-first platform that gives subcontractors one place to submit pay applications correctly the first time, track approval status in real time, exchange lien waivers digitally, and unlock early payment on approved invoices instantly. When a pay app is approved by the GC, the sub can draw 90% of the invoice value within 24 hours at a transparent flat fee — no traditional factoring, no relationship disclosure to the GC. The platform integrates with Procore and Buildertrend on the GC side to pull approval signals automatically, eliminating the chase-and-follow-up cycle that adds weeks to payment timelines.",
+    "business_model": "SaaS subscription at $99/month per subcontractor company for the pay application and compliance layer. Early payment fee of 1.5-2.5% per 30-day term on drawn invoices — revenue scales with the subcontractor's invoice volume. Target average invoice size of $45K means each draw generates $675-$1,125 in fee revenue. Enterprise tier for trade associations and specialty contractors managing multiple crews at $299/month.",
+    "why_now": "Mechanic's lien filings surged 141% in 2023 as payment conditions worsened — subcontractors are desperate for alternatives. GC platforms like Procore and Buildertrend now offer open APIs, making payment status data accessible programmatically for the first time. The embedded finance infrastructure (Banking-as-a-Service rails) has matured to where a small team can offer instant payouts without a banking license. Billd raised capital proving the demand exists, but left the workflow layer entirely unsolved.",
+    "moat": "Network effects as GCs are onboarded — the more GCs that integrate, the faster approval signals flow and the lower the early payment risk. Proprietary payment history data on GC behaviour creates a unique credit model for subcontractors that traditional lenders cannot replicate. Switching cost compounds as compliance documents, lien waiver history, and pay app records accumulate on the platform.",
+    "go_to_market": "Launch with a single trade vertical — electrical subcontractors — in one metro market (Dallas or Phoenix, both high-growth construction markets). Partner with NECA (National Electrical Contractors Association) and local trade chapters for distribution. Offer the compliance layer free for 90 days to drive adoption, then monetise on early payment draws. Referral program where subs who bring their GC onto the integration earn a rate discount.",
+    "risks": "Lending license requirements vary by state and may require partnerships with bank sponsors. GC platform integrations depend on API access that could be restricted. Credit risk on early payment draws if GC does not ultimately pay. Competition from Procore and Buildertrend adding native payment features.",
+    "similar_companies": "Billd (material financing for subs — does not solve the pay app workflow layer), Constrafor (GC-side procurement and compliance), Levelset (lien management only, acquired by Procore 2022), Payra (GC-side AR automation — opposite side of the relationship)",
+    "founder_fit": "Ideal for founders with construction industry operations experience combined with fintech or lending background. A technical co-founder familiar with financial APIs and BaaS infrastructure is essential.",
+    "sources": [
+      "https://www.billabex.com/en/blog/construction-cash-flow-crisis-causes-costs-280b-solutions/",
+      "https://www.constructiondive.com/news/subcontractors-cash-flow-profit-payment/746232/",
+      "https://www.commercebank.com/business/trends-and-insights/2026/constructions-next-chapter-challenges-demand-and-opportunity"
+    ]
   }
 ]
