@@ -428,5 +428,31 @@
       "https://www.horticulture.com.au/globalassets/laserfiche/assets/project-reports/st22009/st22009-final-report.pdf",
       "https://www.agriculture.gov.au/biosecurity-trade/export/export-registration-with-china"
     ]
+  },
+  {
+    "id": "018",
+    "slug": "vendorshield",
+    "date": "2026-04-18",
+    "title": "VendorShield \u2014 AI autopilot for vendor security reviews and questionnaires",
+    "tagline": "Turn SOC 2s and security questionnaires into audit-ready vendor decisions in days, not weeks.",
+    "category": "SaaS",
+    "stage": "Idea",
+    "market_size": "Third-party risk management market: $7.4B (2023) projected to $20.6B by 2030",
+    "problem": "Mid-market procurement and security teams are overwhelmed by vendor sprawl and manual reviews. Security questionnaires and SOC 2 report analysis are slow, inconsistent, and create weeks-long onboarding bottlenecks that delay purchases and increase unmanaged risk.",
+    "solution": "VendorShield ingests questionnaires, SOC 2/ISO docs, and policies, then uses AI to extract evidence, map to a company\u2019s control framework, and draft a standardized risk decision packet. It keeps humans in the loop with confidence scoring, citations to supporting text, and approval workflows.",
+    "business_model": "Annual B2B SaaS priced by vendor count (e.g., $12k/year up to 50 vendors, $30k/year up to 200, $60k+/year enterprise), plus add-ons for managed human review, monitoring feeds, and buyer-facing trust portals.",
+    "why_now": "LLM document understanding in 2025\u20132026 reached a reliability/cost threshold that makes SOC 2 and questionnaire automation practical. At the same time, rapid AI tool adoption and rising third-party cyber/compliance pressure are forcing companies to operationalize vendor oversight with auditable, repeatable workflows.",
+    "moat": "Workflow embedding (Jira/ServiceNow/Slack) plus an accumulating evidence library and control mappings creates switching costs. Over time, the platform builds a proprietary dataset of control-to-evidence patterns and vendor baseline benchmarks that improves automation accuracy and risk recommendations.",
+    "go_to_market": "First 90 days: launch a \u201848-hour Vendor Review\u2019 offer for US mid-market B2B companies\u2014submit one SOC 2 and one questionnaire, get a draft risk packet back fast. Sell to security leaders and procurement ops who own onboarding SLAs; distribute via integrations (Jira/ServiceNow, Slack, Google Drive) and partnerships with virtual CISOs and compliance consultancies.",
+    "risks": "Incorrect extraction or summaries could lead to bad risk decisions, requiring strong human-in-the-loop and evidence traceability. Incumbent GRC/TPRM suites can add similar AI features. Vendors may resist transparency, so participation must be easier than traditional questionnaires.",
+    "similar_companies": "OneTrust, ProcessUnity, SecurityScorecard, Whistic, Vanta, Drata, SafeBase, Censinet",
+    "founder_fit": "Founder with experience in security, GRC, procurement ops, or vendor risk management at a mid-market company, plus a technical cofounder strong in document AI and workflow integrations.",
+    "sources": [
+      "https://www.grandviewresearch.com/horizon/outlook/third-party-risk-management-market-size/global",
+      "https://www.onetrust.com/solutions/third-party-management/",
+      "https://www.processunity.com/third-party-risk-management/processunity-ai/",
+      "https://securityscorecard.com/solutions/use-cases/questionnaires/",
+      "https://www.v7labs.com/agents/ai-agent-for-vendor-risk-managers"
+    ]
   }
 ]
