@@ -504,5 +504,32 @@
       "https://docs.snyk.io/developer-tools/snyk-cli/commands/sbom",
       "https://docs.socket.dev/docs/faq"
     ]
+  },
+  {
+    "id": "021",
+    "slug": "voice-agent-regops",
+    "date": "2026-04-19",
+    "title": "RegOps for Voice AI Agents — Compliance-by-design and continuous audit",
+    "tagline": "Ship voice agents in regulated workflows without becoming your own legal risk.",
+    "category": "SaaS",
+    "stage": "Idea",
+    "market_size": "AI agents in healthcare projected to reach $6.92B by 2030 (forecast published 2025)",
+    "problem": "Voice AI agents are being deployed into regulated phone workflows (healthcare, insurance, finance), but teams lack reliable ways to prove consent/disclosure, detect behavior drift after prompt/model changes, and assemble audit-ready evidence. Compliance work is fragmented across call logs, vendor dashboards, and internal tickets, making enterprise procurement and ongoing oversight slow and risky.",
+    "solution": "A RegOps layer for voice agents that runs pre-launch compliance test suites, continuously monitors production calls for policy violations and drift, and generates audit-ready evidence packs (consent artifacts, disclosures, retention proofs, and immutable change logs). It integrates with existing telephony/agent stacks rather than replacing them.",
+    "business_model": "B2B SaaS priced by call volume + number of deployed agents, starting ~$2k–$10k/month, with add-on compliance packs (healthcare/HIPAA workflows, biometrics/voiceprint consent, payments). Optional implementation services for policy mapping and initial test-suite setup.",
+    "why_now": "2025–2026 is the inflection point where voice agents are good enough to run high-volume phone operations, while state privacy/AI regimes and TCPA enforcement expectations are tightening around disclosure, accountability, and risk management. Enterprises want continuous controls and evidence, not one-time vendor security questionnaires.",
+    "moat": "Growing proprietary library of voice-agent failure scenarios and jurisdictional policy test packs; deep integrations into customer stacks (prompt registry, tool calls, routing) creating switching costs; and an audit trail that becomes the system of record for governance.",
+    "go_to_market": "First 90 days: wedge into healthcare patient access (scheduling, reminders, benefits verification). Partner with CCaaS integrators and voice-agent agencies; offer a 'compliance report' MVP (disclosure verification + consent artifact storage + deploy log + weekly drift report). Convert pilots into annual contracts tied to faster procurement and fewer production incidents.",
+    "risks": "Integration complexity across diverse voice stacks. Customers may expect a 'guarantee of compliance'—position as controls and evidence. Need strong policy-to-product translation. Category could crowd quickly; must differentiate on audit artifacts and jurisdictional packs.",
+    "similar_companies": "Hamming AI, Observe.ai, CallMiner, NICE, Verint, Balto, Level AI",
+    "founder_fit": "Founder with experience in contact center platforms or healthcare/fintech compliance, plus strong product engineering for observability/testing and enterprise integrations.",
+    "sources": [
+      "https://www.mayerbrown.com/en/insights/publications/2024/02/fcc-declares-authority-and-intent-to-regulate-ai-generated-calls-under-the-tcpa",
+      "https://www.mayerbrown.com/en/insights/publications/2026/03/the-colorado-ai-policy-work-group-proposes-an-updated-framework-to-replace-the-colorado-ai-act",
+      "https://www.skadden.com/insights/publications/2025/10/california-finalizes-cppa-regulations",
+      "https://www.marketsandmarkets.com/Market-Reports/ai-agents-in-healthcare-market-231362627.html",
+      "https://www.mordorintelligence.com/industry-reports/united-states-healthcare-bpo-market",
+      "https://hamming.ai"
+    ]
   }
 ]
