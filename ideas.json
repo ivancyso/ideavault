@@ -478,5 +478,31 @@
       "https://linear.health/blog/best-prior-authorization-software",
       "https://www.caqh.org/blog/new-caqh-report-reveals-significant-differences-in-administrative-costs"
     ]
+  },
+  {
+    "id": "020",
+    "slug": "sbom-ops-hub",
+    "date": "2026-04-19",
+    "title": "SBOM Ops Hub — Turn supply-chain transparency into buyer-ready evidence",
+    "tagline": "Continuously collect SBOMs and ship customer-ready compliance packages in one click.",
+    "category": "Cybersecurity",
+    "stage": "Idea",
+    "market_size": "SBOM management market projected to grow by $2.41B from 2025–2030 (2026 estimate)",
+    "problem": "Mid-market US software vendors increasingly face SBOM requirements in security reviews and contracts, but SBOM work is fragmented across repos, tools, and teams. Generating an SBOM is not enough; teams struggle to keep it current, explain exceptions, and deliver buyer-ready evidence fast enough to unblock deals.",
+    "solution": "A lightweight SBOM operations hub that continuously collects SBOMs from CI/CD and registries, normalizes formats, and produces versioned customer packages (exports, changelogs, signed manifests). It adds exception workflows, monitoring, and a shareable trust-portal style view for procurement and vendor-risk teams.",
+    "business_model": "B2B SaaS priced by repos/artifacts and seats: Starter ($499–$999/mo) for generation + exports; Growth ($2k–$6k/mo) adds monitoring, exception workflows, and questionnaire automation; Enterprise adds SSO, audit logging, signing, and SLAs.",
+    "why_now": "US supply-chain security expectations hardened in 2025–2026 as government and enterprise buyers translated SBOM guidance into procurement requirements. Meanwhile, SBOM generators and SCA platforms are common, creating a clear gap for an operational layer that turns technical SBOM data into ongoing, buyer-ready evidence and exceptions.",
+    "moat": "Workflow + data moat: longitudinal dependency graphs across releases, provenance-rich SBOM history, and a knowledge base of accepted exceptions mapped to buyer questions. Switching costs rise as the hub becomes the system of record for supply-chain transparency across engineering, security, and sales.",
+    "go_to_market": "First 90 days: (1) Target 50–500 employee US SaaS vendors selling into regulated industries. (2) Offer a fixed-scope 'SBOM-ready in 7 days' onboarding that delivers a customer package for an active deal. (3) Partner with fractional CISOs/compliance consultants. (4) Publish templates for SBOM clauses and exception responses to capture high-intent search.",
+    "risks": "Incumbent SCA vendors may expand into packaging and workflows. Poor SBOM completeness can erode trust without strong validation and provenance. Handling sensitive build/dependency metadata requires a high security bar. Standards and guidance may evolve quickly, requiring ongoing format support.",
+    "similar_companies": "Anchore, Snyk, Socket, Chainguard, Mend",
+    "founder_fit": "Founder with DevSecOps or product security background (SCA/SBOM/CI tooling) plus empathy for sales-driven compliance workflows in B2B SaaS.",
+    "sources": [
+      "https://www.cisa.gov/sbom",
+      "https://www.technavio.com/report/software-bill-of-materials-(sbom)-management-market-industry-analysis",
+      "https://docs.anchore.com/current/docs/sbom_management/",
+      "https://docs.snyk.io/developer-tools/snyk-cli/commands/sbom",
+      "https://docs.socket.dev/docs/faq"
+    ]
   }
 ]
