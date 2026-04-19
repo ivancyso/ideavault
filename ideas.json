@@ -531,5 +531,31 @@
       "https://www.mordorintelligence.com/industry-reports/united-states-healthcare-bpo-market",
       "https://hamming.ai"
     ]
+  },
+  {
+    "id": "022",
+    "slug": "prior-auth-autopilot",
+    "date": "2026-04-20",
+    "title": "Prior-Auth Autopilot — Clinic-side submission, tracking, and appeals on autopilot",
+    "tagline": "Turn prior auth from a portal-chasing job into a software pipeline.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "Electronic prior authorization solutions market: ~$1.2B (2024)",
+    "problem": "Specialty clinics lose staff time and revenue to prior authorization: assembling documentation, monitoring payer portals, and reworking denials. Requirements vary by payer and plan, so coordinators rely on tribal knowledge and manual checklists that break whenever policies change.",
+    "solution": "A clinic-side prior-authorization autopilot that discovers payer documentation requirements, assembles the packet from the EHR, drafts the medical-necessity narrative, submits electronically, monitors status, and generates appeal packets when denied. Human-in-the-loop review keeps the workflow safe while cutting portal checking and avoidable denials.",
+    "business_model": "B2B SaaS sold to independent specialty groups. Price per provider per month plus a per-authorization fee; premium tier for denial/appeal automation and analytics. Optional performance pricing tied to reduced denial rates or faster days-to-cash once baseline is established.",
+    "why_now": "2026 process mandates and 2027 API requirements are pushing payers toward more standardized digital prior-auth workflows, making requirements and status more machine-readable. Meanwhile, GenAI is now reliable for drafting and structuring documentation with staff review, enabling immediate ROI in back-office operations.",
+    "moat": "Cross-payer rules + outcomes dataset that improves first-pass approval recommendations (what to include, what gets denied, what appeals win). Switching costs compound as clinics centralize payer mappings, templates, and historical authorization/appeal records.",
+    "go_to_market": "Start with one specialty (imaging centers or orthopedics) and 3–5 dominant payers in one region. Ship tracking + packet assembly first (fast time-to-value), then add criteria checks and appeal automation. Sell through revenue-cycle consultants and billing services; list in EHR app marketplaces as integrations mature.",
+    "risks": "Integration complexity across EHRs and payer endpoints. Trust/safety risk if drafts are wrong and delay care. Payer workflow edge cases that still require phone/fax. Incumbents may add similar features quickly.",
+    "similar_companies": "Cohere Health, AKASA, Olive, Availity, Waystar",
+    "founder_fit": "Founder with healthcare revenue cycle + payer operations experience (or ex-EHR / health IT) plus strong applied AI and workflow engineering background.",
+    "sources": [
+      "https://www.cms.gov/files/document/cms-interoperability-and-prior-authorization-final-rule-informational-session-january-17-2024.pdf",
+      "https://www.cms.gov/priorities/burden-reduction/overview/interoperability/policies-regulations/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "https://akasa.com/press/akasa-launches-authorization-advisor",
+      "https://medcitynews.com/2025/05/healthcare-hospital-insurance-tech-ai/",
+      "https://www.linkedin.com/pulse/electronic-prior-authorization-solutions-market-size-6h0pf"
+    ]
   }
 ]
