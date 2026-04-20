@@ -557,5 +557,32 @@
       "https://medcitynews.com/2025/05/healthcare-hospital-insurance-tech-ai/",
       "https://www.linkedin.com/pulse/electronic-prior-authorization-solutions-market-size-6h0pf"
     ]
+  },
+  {
+    "id": "023",
+    "slug": "interconnection-os",
+    "date": "2026-04-21",
+    "title": "InterconnectionOS — Workflow + AI triage for grid connection queues",
+    "tagline": "Turn interconnection from a multi-year bottleneck into a measurable, managed workflow.",
+    "category": "CleanTech",
+    "stage": "Idea",
+    "market_size": "Grid modernization market estimated at $40.65B (2024)",
+    "problem": "Utilities and grid operators are overwhelmed by interconnection and energization requests for DER, storage, EV charging, and large loads. Manual, spreadsheet-driven processes create long cycle times, repeated rework from incomplete applications, and poor transparency for applicants.",
+    "solution": "A configurable interconnection workflow platform that handles intake, validation, milestone tracking, cluster study operations, applicant status, and compliance reporting. Add AI-assisted document and data triage to catch deficiencies before studies begin.",
+    "business_model": "Enterprise SaaS sold to utilities/transmission providers/ISOs (annual platform fee + implementation). Usage-based add-ons for AI document processing and high application volume; optional paid developer analytics module.",
+    "why_now": "Queue reform and deadline-driven processes are pushing the industry toward standardized workflows (clusters, readiness milestones, transparency). Federal programs are funding pilots for queue management software, and EV charging + data center load growth is increasing request volume and complexity.",
+    "moat": "Workflow + interconnection data model tuned to utility tariffs and study processes, plus integrations into GIS/CIS and engineering tooling. Data flywheel on cycle times/deficiencies across utilities and developers, creating benchmarking and automation advantages.",
+    "go_to_market": "Target mid-sized distribution utilities with high DER/EVSE request volume. Offer an 8–12 week paid pilot (intake portal + deficiency detection + applicant status dashboard) to prove reduced back-and-forth and faster time-to-study-ready, then expand into study operations and reporting.",
+    "risks": "Slow utility procurement cycles and long security reviews. Integration complexity with legacy systems and engineering tools. Regulatory variability across ISOs/utilities. Incumbent workflow vendors may bundle similar features.",
+    "similar_companies": "Clean Power Research (PowerClerk), GridUnity",
+    "founder_fit": "Founder with utility software, grid operations, or energy project development experience; comfortable with enterprise sales and regulated workflows.",
+    "sources": [
+      "https://www.energy.gov/cmei/i2x/i2x-innovative-queue-management-solutions-iqms-clean-energy-interconnection-and-0",
+      "https://www.ferc.gov/explainer-interconnection-final-rule-2023-A",
+      "https://emp.lbl.gov/publications/queued-2024-edition-characteristics",
+      "https://www.cleanpower.com/utility-solutions/interconnection-management/",
+      "https://www.gridunity.com",
+      "https://www.researchandmarkets.com/reports/6108658/grid-modernization-market-global-industry"
+    ]
   }
 ]
