@@ -584,5 +584,31 @@
       "https://www.gridunity.com",
       "https://www.researchandmarkets.com/reports/6108658/grid-modernization-market-global-industry"
     ]
+  },
+  {
+    "id": "024",
+    "slug": "privacy-ops-drop-automation",
+    "date": "2026-04-22",
+    "title": "Privacy Ops — Automated data deletion beyond California’s DROP",
+    "tagline": "One place to delete, suppress, and continuously monitor your personal data across brokers and people-search sites.",
+    "category": "PrivacyTech",
+    "stage": "Idea",
+    "market_size": "Data broker market: $294.27B (2025) growing to $448.32B by 2031",
+    "problem": "Personal data is copied across hundreds of brokers and people-search sites, and it reappears after one-time removals. New state portals like California’s DROP raise consumer expectations, but they only cover registered brokers in one state and don’t handle the broader exposure surface or continuous relisting.",
+    "solution": "A ‘Privacy Ops’ platform that uses state-run portals (starting with California’s) as an anchor, then automates deletion/opt-out requests across non-registry brokers and people-search sites, with continuous relisting detection. It also provides a proof-of-deletion ledger users can export for disputes, harassment response, or identity theft recovery.",
+    "business_model": "Subscription ($8–$15/month individual/family). Premium ‘high-risk’ tier with faster turnaround + human escalation. B2B2C distribution via employers, credit unions, and identity-protection bundles.",
+    "why_now": "In 2026, California launched a centralized broker deletion portal and set a required processing cadence with upcoming audits, making privacy workflows more standardized and software-friendly. At the same time, AI-enabled fraud and doxxing make data exposure feel urgent, increasing willingness to pay for ongoing protection.",
+    "moat": "A proprietary broker-response dataset (what works, verification patterns, timelines) plus a workflow engine that optimizes for successful removals. An audit-style privacy ledger and integrations (identity monitoring, credit freeze) increase switching costs.",
+    "go_to_market": "First 30 days: California-only wedge—manage the state portal plus top non-registry people-search sites; deliver visible removals in week one. Days 31–60: partner with creator-safety and anti-doxxing communities; run ‘privacy cleanup’ workshops; launch family plan. Days 61–90: pilot as an employee benefit (200–500 person firms in healthcare/finance/government-adjacent) positioned as safety infrastructure.",
+    "risks": "Brokers add friction (CAPTCHAs, changing forms) and resist automation. Regulatory variability across states complicates product messaging. Incumbents exist, so differentiation must be clear beyond ‘send opt-out emails.’ Overpromising SLAs can create support and compliance risk.",
+    "similar_companies": "DeleteMe, Incogni, Optery, Kanary, Aura, OneRep, Privacy Bee",
+    "founder_fit": "Background in consumer privacy/security, workflow automation, and operations-heavy products (support + compliance). Experience partnering with employers/benefits or identity protection channels is a plus.",
+    "sources": [
+      "https://www.datagrail.io/blog/regulations/the-delete-act-and-drop-what-you-need-to-know/",
+      "https://www.linkedin.com/posts/alm-corporate-counsel_californias-chief-privacy-regulator-says-activity-7386898826437107712-zyLl",
+      "https://www.mordorintelligence.com/industry-reports/data-broker-market",
+      "https://www.security.org/data-removal/best/",
+      "https://techcrunch.com/2026/03/25/deleteme-acquires-social-media-security-tool-block-party/"
+    ]
   }
 ]
