@@ -610,5 +610,30 @@
       "https://www.security.org/data-removal/best/",
       "https://techcrunch.com/2026/03/25/deleteme-acquires-social-media-security-tool-block-party/"
     ]
+  },
+  {
+    "id": "025",
+    "slug": "prior-auth-copilot-fhir",
+    "date": "2026-04-23",
+    "title": "Prior Authorization Copilot — FHIR-native submission agent for specialty clinics",
+    "tagline": "Automate prior auth from order to decision with chart-grounded AI and FHIR APIs.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "US provider administrative waste is often estimated in the hundreds of billions annually (est. 2019)",
+    "problem": "Specialty clinics lose hours per case translating clinical notes into payer-specific prior authorization (PA) submissions across portals, attachments, and follow-ups. Delays frustrate patients, increase denials, and reduce clinic throughput and revenue predictability.",
+    "solution": "A provider-side copilot that connects to the EHR, assembles a PA-ready evidence bundle, completes payer questionnaires, drafts chart-consistent medical-necessity narratives, submits electronically (FHIR/clearinghouse/portal), and tracks status. Every denial becomes structured feedback to improve future submissions.",
+    "business_model": "B2B SaaS sold to specialty practices and MSOs: per-provider-per-month tiers plus optional per-authorization fee for high volume. Upsell modules for denial analytics, appeals automation, and multi-specialty templates.",
+    "why_now": "2026-2027 interoperability requirements are pushing payers toward standardized prior authorization APIs and more transparent timelines, creating new integration points. At the same time, AI is now capable of reliably converting unstructured chart text into structured packets when outputs are grounded in the medical record and reviewed.",
+    "moat": "Clinic-specific denial/approval learning loop + payer-policy mapping data, embedded workflow integrations, and switching costs from customized templates and historical performance benchmarks.",
+    "go_to_market": "First 90 days: pick one PA-heavy specialty (imaging/ortho) and pilot with 2-3 clinics. Measure time per PA, follow-up cycles, approval rate, and days-to-decision. Start with a narrow integration (one EHR + common payers), then expand via clearinghouse partners.",
+    "risks": "EHR and payer connectivity is complex and varies by region. Clinics need high trust and auditability for AI-generated content. Sales cycles can be slow. Payer behavior may lag standards, requiring ongoing support for manual workflows.",
+    "similar_companies": "Cohere Health, CoverMyMeds, Waystar, AKASA, Rhyme (PriorAuthNow), Plenful",
+    "founder_fit": "Founder with healthcare interoperability (FHIR/X12) experience plus workflow product chops (RCM, clinical ops) and ability to sell into specialty practices/MSOs.",
+    "sources": [
+      "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "https://www.cms.gov/priorities/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api",
+      "https://fire.ly/blog/closing-the-loop-how-pas-powers-real-time-prior-authorization/",
+      "https://www.producthunt.com/categories/compliance-software"
+    ]
   }
 ]
