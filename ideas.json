@@ -635,5 +635,30 @@
       "https://fire.ly/blog/closing-the-loop-how-pas-powers-real-time-prior-authorization/",
       "https://www.producthunt.com/categories/compliance-software"
     ]
+  },
+  {
+    "id": "026",
+    "slug": "gridflex-os-data-center-load-flexibility",
+    "date": "2026-04-24",
+    "title": "GridFlex OS — Turn data centers into grid-flexible loads",
+    "tagline": "Dispatchable megawatts from your data center without breaking SLAs.",
+    "category": "EnergyTech",
+    "stage": "Idea",
+    "market_size": "$5.3B global DCIM market in 2025 (forecast $33.6B by 2034)",
+    "problem": "Data centers are becoming constrained by grid power availability and are increasingly expected to curtail during grid emergencies. Operators lack a unified control plane to translate utility/ISO signals into safe, auditable actions across workloads, facility power systems, and on-site energy.",
+    "solution": "GridFlex OS is a software control plane that models a site’s real-time flexibility envelope (MW shed, duration, recovery ramp), then orchestrates curtailment by shifting non-urgent compute, applying power caps, and dispatching batteries or on-site generation. It produces compliance-grade audit logs and optimizes participation across demand response and flexibility programs.",
+    "business_model": "B2B annual contracts per site priced by MW and integration depth (e.g., $250K–$1M/year) plus a variable component tied to outcomes (share of demand-response revenue, MW-under-management fee, or verified-performance bonuses).",
+    "why_now": "In 2025–2026, grid constraints and interconnection delays are becoming a primary limiter for AI data center buildouts, and policies like Texas SB6 are introducing explicit curtailment obligations for new large loads. Meanwhile, modern schedulers and hardware telemetry make controlled power shaping feasible without taking down critical workloads.",
+    "moat": "Deep operational integrations + accumulated performance data create switching costs. A growing library of event playbooks and a site-level flexibility history enable better forecasting, safer dispatch, and higher monetization over time.",
+    "go_to_market": "First 90 days: focus on ERCOT/Texas. Sell a paid ‘flexibility readiness assessment’ to 5–10 data center operators to quantify MW shed capability and deliver a compliance-ready playbook. Convert 1–2 sites into pilots by integrating with Kubernetes/Slurm and basic facility telemetry (PDUs/UPS), then turn pilots into annual contracts tied to interconnection/program requirements.",
+    "risks": "Integration complexity across heterogeneous infrastructure. Customer trust and operational risk if automation touches production workloads. Policy and program variability across ISOs/states. Incumbent DCIM vendors bundling flexibility features into existing suites.",
+    "similar_companies": "Emerald AI, Nlyte, Schneider Electric, Sunbird DCIM, Device42",
+    "founder_fit": "Founders with experience in data center operations, power markets/demand response, and software for infrastructure observability/control (Kubernetes, scheduling, telemetry).",
+    "sources": [
+      "https://www.carbon-direct.com/insights/the-billion-dollar-case-for-enabling-data-center-load-flexibility",
+      "https://www.hanwhadatacenters.com/blog/data-center-grid-limitations-the-power-bottleneck/",
+      "https://www.santaclaraca.gov/Home/Components/News/News/45589/",
+      "https://www.gminsights.com/industry-analysis/data-center-infrastructure-management-market"
+    ]
   }
 ]
