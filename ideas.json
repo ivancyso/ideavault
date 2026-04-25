@@ -685,5 +685,31 @@
       "https://mostly.ai/news/mostly-ai-raises-25m-to-bring-synthetic-data-to-every-enterprise",
       "https://digital.nemko.com/news/ai-governance-platforms-market-to-surpass-1-billion-by-2030"
     ]
+  },
+  {
+    "id": "028",
+    "slug": "cancelflow-click-to-cancel-compliance-layer",
+    "date": "2026-04-26",
+    "title": "CancelFlow Compliance — Click-to-cancel infrastructure for subscription businesses",
+    "tagline": "Make cancellation as easy as sign-up, with audit trails to prove it.",
+    "category": "SaaS",
+    "stage": "Idea",
+    "market_size": "Subscription billing management market: $8.47B in 2025 (projected $37.36B by 2035)",
+    "problem": "Subscription businesses run cancellation across fragmented channels (web, mobile, support, app stores) and billing providers, creating inconsistent experiences and compliance risk. Teams often can’t prove what disclosures were shown, how consent was captured, and whether cancellations halted future charges immediately.",
+    "solution": "A drop-in cancellation + consent orchestration layer: hosted cancellation portal and SDKs, policy engine configurable by jurisdiction and plan type, and a compliance-grade audit trail. It connects to billing providers to execute cancel-now vs cancel-at-period-end reliably and generates evidence packets for legal, banks, and regulators.",
+    "business_model": "B2B SaaS priced by monthly active subscribers and integrations (e.g., Starter $500–$2k/mo; Mid-market $3k–$10k/mo; Enterprise custom with SSO/VPC). Add-ons for audit exports, multi-brand management, and dispute/chargeback reduction workflows.",
+    "why_now": "Regulatory expectations are converging on ‘as easy to cancel as to sign up’ and require clear disclosures, express informed consent, and simple cancellation mechanisms. Subscription companies are standardizing flows across multiple surfaces and need configurable infrastructure that can keep up with changing state/federal guidance while producing defensible evidence.",
+    "moat": "Workflow and governance lock-in (versioned templates, approvals, audit history) plus deep integrations across billing providers and app stores create switching costs. Aggregated, anonymized flow-performance data can benchmark compliant UX patterns and reduce disputes over time.",
+    "go_to_market": "Days 1–30: ship a hosted cancellation portal + Stripe integration + audit log export; target B2C subscriptions with high support volume. Days 31–60: partner with agencies and subscription CFO/RevOps consultants; offer a fixed-price ‘cancellation compliance hardening’ package. Days 61–90: expand integrations (Chargebee/Paddle/Recurly) and launch a ‘compliance evidence packet’ feature aimed at reducing disputes and speeding legal reviews.",
+    "risks": "Crowded retention tooling category; must differentiate on compliance and proof. Legal requirements vary by jurisdiction and evolve, so configuration must be robust without giving legal advice. Billing providers may add native compliant flows. Some customers will fear higher churn; must prove ROI via fewer disputes, lower support load, and reduced compliance exposure.",
+    "similar_companies": "Chargebee Retention, Churnkey, ProfitWell Retain, Paddle, Stripe Billing",
+    "founder_fit": "Founder with subscription operations + payments/billing engineering experience, ideally with exposure to disputes/chargebacks and compliance review workflows.",
+    "sources": [
+      "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring",
+      "https://www.astuteanalytica.com/industry-report/subscription-billing-management-market",
+      "https://www.globenewswire.com/news-release/2026/03/13/3255477/0/en/subscription-billing-management-market-report-2026-opportunity-analysis-and-forecasts-2025-2035-growing-shift-toward-hybrid-consumption-models-combining-subscriptions-and-usage-bas.html",
+      "https://www.chargebee.com/blog/comply-ftc-click-to-cancel-rule-retain-subscribers/",
+      "https://www.lw.com/en/insights/ftc-delays-enforcement-of-click-to-cancel-rule-until-july-14-2025"
+    ]
   }
 ]
