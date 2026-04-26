@@ -711,5 +711,31 @@
       "https://www.chargebee.com/blog/comply-ftc-click-to-cancel-rule-retain-subscribers/",
       "https://www.lw.com/en/insights/ftc-delays-enforcement-of-click-to-cancel-rule-until-july-14-2025"
     ]
+  },
+  {
+    "id": "029",
+    "slug": "aimsops-iso-42001-ai-governance-automation",
+    "date": "2026-04-27",
+    "title": "AIMSOps — ISO 42001-ready AI governance automation",
+    "tagline": "Make AI governance feel like CI/CD: continuous evidence, audit-ready by default.",
+    "category": "SaaS",
+    "stage": "Idea",
+    "market_size": "$3.4B global enterprise AI governance & compliance market (2026)",
+    "problem": "Enterprises are deploying AI models and agents across many tools, but governance still runs on spreadsheets and one-off document templates. Security, legal, and procurement teams need an always-current AI inventory, risk classification, and proof that required controls were actually followed.",
+    "solution": "AIMSOps continuously discovers AI systems, maps governance controls to real engineering signals (evaluations, approvals, access reviews), and generates exportable evidence packs for audits and customer security questionnaires. It turns governance from a quarterly scramble into an always-on operational workflow.",
+    "business_model": "B2B SaaS. Base platform fee ($2K–$8K/month) plus usage-based pricing by number of AI systems tracked and evidence-pack exports. Enterprise tier adds SSO/SAML, RBAC, data residency, and premium integrations.",
+    "why_now": "In 2025–2026, companies moved from AI principles to auditable management systems and concrete control sets, while agent-based workflows and third-party model usage accelerated AI sprawl. Organizations need continuous governance to sell into regulated buyers and pass procurement reviews without slowing product velocity.",
+    "moat": "Deep integrations + compliance memory: historical evaluations, approvals, and attestations become the company’s system of record, creating switching costs. A growing library of control mappings and evidence templates across frameworks (ISO 42001, NIST AI RMF, EU AI Act) compounds defensibility.",
+    "go_to_market": "First 90 days: (1) Build 5–7 high-leverage integrations (one cloud ML platform, one model registry, one ticketing tool, one code host, one data warehouse). (2) Sell to security/compliance-led mid-market SaaS and fintech via procurement-pain messaging: ‘cut AI questionnaire turnaround from weeks to days.’ (3) Offer a free ‘AI inventory + gaps report’ that turns into a paid rollout for continuous evidence capture.",
+    "risks": "Crowded adjacent market (governance, security, observability). Hard to access production telemetry without strong security posture. Could become a shelfware dashboard if workflows add friction. Regulatory requirements may shift, requiring ongoing template updates.",
+    "similar_companies": "Credo AI, Fiddler AI, BigID, EQS Group",
+    "founder_fit": "Founder with experience in enterprise security/compliance (GRC), ML platform engineering, or DevSecOps tooling; ideally someone who has lived through procurement/audit cycles for AI-powered products.",
+    "sources": [
+      "https://market.us/report/enterprise-ai-governance-and-compliance-market/",
+      "https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html",
+      "https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html",
+      "https://bigid.com/compliance/eu-ai-act-compliance/",
+      "https://www.eqs.com/platform-data-privacy/ai-compliance/"
+    ]
   }
 ]
