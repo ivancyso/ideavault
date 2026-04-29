@@ -788,5 +788,29 @@
       "https://www.mordorintelligence.com/industry-reports/governance-risk-and-compliance-software-market",
       "https://marketintelo.com/report/continuous-control-monitoring-market"
     ]
+  },
+  {
+    "id": "032",
+    "slug": "prior-auth-ops-layer",
+    "date": "2026-04-30",
+    "title": "PriorAuth Ops Layer — Agentic automation for insurance approvals",
+    "tagline": "Turn prior auth into a fast, auditable workflow instead of a fax-and-portal mess.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "$35B/year US administrative spending attributable to prior authorization (2024 estimate)",
+    "problem": "Prior authorization delays care and forces clinics to do hours of manual work per week across portals, phone calls, and faxes. Missed documentation requirements and slow status updates lead to denials, rescheduled procedures, and lost revenue.",
+    "solution": "A workflow engine that sits between the EHR and payers to detect PA requirements, auto-assemble clinical evidence, submit requests across channels (portal/fax/API), track status, and draft appeals with human review. It produces audit-grade logs and progressively shifts to payer APIs as they come online.",
+    "business_model": "B2B SaaS for specialty groups and outpatient networks: $1.5k–$10k/month platform fee based on locations + $2–$8 per completed prior auth. Optional performance fee tied to measurable improvements in approval rate and appeal overturns versus baseline.",
+    "why_now": "CMS’s interoperability and prior authorization rule pushes payers toward stricter timelines in 2026 and API-based exchange by 2027, increasing the reliability of automation. At the same time, LLMs can finally summarize unstructured clinical notes into compliant evidence packets with human-in-the-loop oversight.",
+    "moat": "A proprietary payer-requirements-and-outcomes dataset (what documentation works for which payer/plan/procedure), plus deep workflow integrations into EHR/RCM/scheduling that create switching costs. Over time, denial reasons and appeal outcomes become a data flywheel.",
+    "go_to_market": "First 90 days: pick one high-PA specialty (orthopedics or advanced imaging) in one metro and sign 5–10 clinics with a turnaround-time reduction guarantee. Deploy with a services-assisted setup (rule configuration + staff training), then productize. Partner with EHR/RCM consultants serving specialty groups and publish payer benchmarks from early data to drive inbound.",
+    "risks": "PHI security and HIPAA compliance requirements. Complex EHR integrations and over-customization risk. Payer variability and lagging standards can reduce automation rates. ROI measurement must be instrumented to prove savings and recovered revenue.",
+    "similar_companies": "Surescripts, Waystar, Olive, Notable, Infinx, Cedar",
+    "founder_fit": "Founder with healthcare RCM or clinical ops experience plus strong workflow automation and security chops; ideally someone who has sold to specialty practices or health systems.",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11425057/",
+      "https://www.cms.gov/priorities/burden-reduction/overview/interoperability/policies-regulations/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/"
+    ]
   }
 ]
