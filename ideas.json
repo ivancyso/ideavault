@@ -864,5 +864,30 @@
       "https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy",
       "https://www.truepic.com/blog/content-provenance"
     ]
+  },
+  {
+    "id": "035",
+    "slug": "agent-identity-governance-platform",
+    "date": "2026-05-03",
+    "title": "Agent Identity Governance — Control every non-human actor",
+    "tagline": "Treat every AI agent like a first-class identity with enforceable permissions and audit-ready evidence.",
+    "category": "Cybersecurity",
+    "stage": "Idea",
+    "market_size": "AI governance market: $620M (2024) to $7.38B (2030)",
+    "problem": "AI agents are being granted tool access to production systems, but most companies can’t answer basic questions after an incident: which agent did what, under which permissions, and why. Existing IAM, PAM, and GRC tooling is human- and document-centric, leaving gaps in least-privilege enforcement and audit-grade evidence for agent actions.",
+    "solution": "An Agent Identity Governance platform that discovers agents, assigns ownership, and enforces just-in-time, intent-based permissions for every tool call. It generates compliance-ready logs and on-demand audit packets based on runtime enforcement data (not manual policy docs).",
+    "business_model": "B2B SaaS: base platform fee per monitored agent identity + usage-based pricing per million intercepted tool calls; add-on compliance packs (SOC 2/HIPAA/financial services) and premium connectors.",
+    "why_now": "In 2025–2026, agentic workflows are moving from pilots into production with real system permissions, making governance an operational necessity rather than a policy exercise. At the same time, governance expectations around transparency and auditability are tightening with upcoming enforcement deadlines, pushing companies toward continuous, runtime controls and evidence.",
+    "moat": "A proprietary agent identity + ownership graph plus a growing enforcement/evidence dataset enables better default policies, anomaly detection, and risk scoring over time. Switching costs increase as the platform becomes the system of record for agent ownership and audit evidence.",
+    "go_to_market": "First 90 days: (1) Offer a free ‘agent discovery’ assessment for regulated mid-market/enterprise to inventory agents, tools, and risky permissions. (2) Convert to a paid pilot by enabling JIT access for one high-risk connector (Drive/SharePoint, Salesforce, Jira) and producing an audit packet for one control set. (3) Expand to additional connectors and agent runtimes; partner with SOC 2/HIPAA readiness consultancies and MSPs.",
+    "risks": "Crowded adjacency with IAM/PAM and AI governance incumbents. Integration complexity across agent frameworks and SaaS APIs. Buyers may build internal middleware instead of buying. Proving ROI requires tying controls to fewer incidents and faster audits.",
+    "similar_companies": "OneTrust, Credo AI, Fiddler AI, Lakera, CyberArk, Clutch Security, AQtive Guard",
+    "founder_fit": "Security/IAM or platform engineering background with experience shipping identity, audit logging, and SaaS integrations in regulated environments.",
+    "sources": [
+      "https://www.nextmsc.com/report/ai-governance-market-3562",
+      "https://devidevs.com/blog/eu-ai-act-art-50-ai-content-labels-august-2026",
+      "https://www.helpnetsecurity.com/2026/03/10/onetrust-expands-ai-governance/",
+      "https://www.aqtiveguard.com/blogs/aqtive-guard-expands-ai-security-posture-management-rsa-2026"
+    ]
   }
 ]
