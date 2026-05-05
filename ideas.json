@@ -940,5 +940,32 @@
       "https://catena-x.net/use-case-cluster/digital-product-passport/",
       "https://www.openbatterypassport.com"
     ]
+  },
+  {
+    "id": "038",
+    "slug": "dpp-compliance-copilot-us-exporters",
+    "date": "2026-05-06",
+    "title": "DPP Compliance Copilot — Turn supplier chaos into export-ready product passports",
+    "tagline": "Generate audit-ready, machine-readable Digital Product Passports from messy supplier docs.",
+    "category": "SaaS",
+    "stage": "Idea",
+    "market_size": "Digital Product Passport software: USD 185.9M (2024) to USD 1,780.5M (2030E)",
+    "problem": "US manufacturers exporting to the EU are facing a new requirement: provide structured, verifiable product sustainability and compliance data, not PDFs. The needed data lives across suppliers, emails, certificates, spreadsheets, and multiple internal systems, making it slow, error-prone, and hard to audit.",
+    "solution": "A DPP Compliance Copilot that ingests supplier documents and system exports, extracts and normalizes required fields into product-passport templates, and publishes a machine-readable passport + API with evidence links. A readiness dashboard highlights missing data per SKU and supplier, with an audit trail for every field.",
+    "business_model": "B2B SaaS priced by active SKU families and/or supplier seats, with paid onboarding (passport readiness assessment) and premium add-ons for automated validation, API access, and enterprise integrations.",
+    "why_now": "Regulatory timelines are shifting from pilots to production systems: the EU’s ESPR framework introduces Digital Product Passports and is progressing toward technical rules (identifiers, data carriers, access rights, registries). At the same time, AI-based document extraction and workflow tooling is finally strong enough to turn document-heavy compliance into a software-first process.",
+    "moat": "Evidence graph + audit trail per field, a growing library of category templates/mappings/validators, and supplier workflow lock-in once submission processes standardize on your platform.",
+    "go_to_market": "Days 0–30: pick one vertical (e.g., building products or electronics assemblies) and ship a readiness assessment service with a lightweight portal. Days 31–60: integrate with email/shared drives + one PLM/ERP export path, deliver ‘missing data’ dashboards, and publish passports for 50–200 SKUs. Days 61–90: partner with compliance consultants/testing labs serving exporters; convert assessments into annual SaaS with per-SKU pricing and supplier invite flows.",
+    "risks": "Standards and delegated requirements may change, requiring aggressive versioning. Data accuracy and liability risk if customers treat the passport as a compliance guarantee. Competitive pressure from existing traceability/DPP platforms moving downmarket. Supplier adoption friction if workflows are too heavy.",
+    "similar_companies": "TrusTrace, Circularise, Spherity, osapiens, Avery Dennison atma.io, Circulor, Siemens",
+    "founder_fit": "Former supply chain/PLM or compliance SaaS operator with experience integrating messy enterprise data, plus a strong product/AI workflow builder who can ship human-in-the-loop extraction and audit trails.",
+    "sources": [
+      "https://environment.ec.europa.eu/strategy/circular-economy/ecodesign-sustainable-products-regulation_en",
+      "https://www.marketsandmarkets.com/PressReleases/digital-product-passport.asp",
+      "https://www.esgtoday.com/digital-product-passports-are-coming-and-2026-is-when-the-real-work-begins/",
+      "https://www.abiresearch.com/blog/top-digital-product-passport-dpp-software-providers",
+      "https://circulor.com/battery-passport",
+      "https://www.spherity.com/post/choosing-the-right-digital-product-passport-software"
+    ]
   }
 ]
