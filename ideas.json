@@ -967,5 +967,30 @@
       "https://circulor.com/battery-passport",
       "https://www.spherity.com/post/choosing-the-right-digital-product-passport-software"
     ]
+  },
+  {
+    "id": "039",
+    "slug": "interconnection-copilot-hosting-capacity-navigator",
+    "date": "2026-05-07",
+    "title": "Interconnection Copilot — Turn grid capacity maps into fast approvals",
+    "tagline": "An AI-assisted interconnection workflow that cuts incomplete applications and speeds utility approvals.",
+    "category": "CleanTech",
+    "stage": "Idea",
+    "market_size": "Grid modernization market: $45.23B (2026)",
+    "problem": "US utilities are overwhelmed by interconnection and large-load requests (DER, storage, EV charging, data centers) that arrive incomplete and require repeated back-and-forth. Processes are often email-and-spreadsheet driven, while newer rules push tighter deadlines and clearer readiness requirements, increasing operational risk and customer frustration.",
+    "solution": "A purpose-built SaaS platform that provides (1) an applicant portal with AI-powered completeness checks and structured data extraction, (2) a utility workflow engine aligned to tariff/SOP milestones with deadline tracking and automated communications, and (3) a capacity navigator that turns hosting capacity data into actionable site screening and point-of-interconnection recommendations.",
+    "business_model": "B2B SaaS sold to utilities/co-ops/munis (annual contracts priced by interconnection volume or meter count + implementation fees). Optional developer add-ons for portfolio tracking, bulk site screening, and API access.",
+    "why_now": "Interconnection reforms are pushing cluster processes, firm deadlines, and stricter readiness checks; meanwhile, electrification and data center growth are increasing urgent, complex load requests. Hosting capacity maps and transparency initiatives are expanding, creating demand for ‘map-to-application’ workflows that reduce wasted studies.",
+    "moat": "Switching costs once embedded as the interconnection system of record + utility integrations. A data flywheel from labeled applications/deficiency reasons that improves validation, forecasting, and benchmarking.",
+    "go_to_market": "Days 1–30: sign one pilot with a public power utility or co-op; launch a portal MVP focused on completeness validation + automated communications. Days 31–60: add utility workflow milestones and internal dashboard; integrate with GIS export/import. Days 61–90: launch a free developer site-screening tool (address search + friction score) that routes applicants to pilot utilities and creates inbound demand.",
+    "risks": "Long utility procurement cycles and integration complexity. AI must be conservative and auditable to avoid compliance/engineering errors. Highly variable utility tariffs and processes increase configuration burden. Incumbent utility software vendors may extend interconnection modules.",
+    "similar_companies": "Clean Power Research (PowerClerk), GridUnity, Eaton CYME",
+    "founder_fit": "Former utility interconnection/program manager or grid software PM paired with a technical founder experienced in workflow/enterprise SaaS and utility integrations (GIS/SCADA/planning).",
+    "sources": [
+      "https://www.ferc.gov/explainer-interconnection-final-rule-2023-A",
+      "https://www.energy.gov/cmei/us-atlas-electric-distribution-system-hosting-capacity-maps",
+      "https://www.cleanpower.com/utility-solutions/interconnection-management/",
+      "https://www.researchandmarkets.com/reports/6103552/grid-modernization-market-report"
+    ]
   }
 ]
