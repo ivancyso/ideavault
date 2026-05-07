@@ -992,5 +992,29 @@
       "https://www.cleanpower.com/utility-solutions/interconnection-management/",
       "https://www.researchandmarkets.com/reports/6103552/grid-modernization-market-report"
     ]
+  },
+  {
+    "id": "040",
+    "slug": "impactops-ai-impact-assessment-evidence-locker",
+    "date": "2026-05-08",
+    "title": "ImpactOps — Audit-ready AI impact assessments for mid-market teams",
+    "tagline": "Turn messy AI governance into audit-ready proof in days, not quarters.",
+    "category": "RegTech",
+    "stage": "Idea",
+    "market_size": "$308.3M AI governance market (2025), projected $3.59B by 2033",
+    "problem": "Mid-market companies deploy AI in hiring, lending, support, and operations but track governance in spreadsheets and scattered PDFs. When regulators, enterprise buyers, or insurers ask for impact assessments, change logs, and mitigation evidence, teams scramble and miss deadlines.",
+    "solution": "A lightweight AI compliance workflow tool that maintains an AI system inventory, generates guided impact assessments, and continuously captures evidence (vendor/model changes, approvals, incidents) into exportable audit packets. It also triggers re-assessments when changes likely qualify as substantial modifications.",
+    "business_model": "B2B SaaS priced by number of AI systems and assessment volume (e.g., $299/mo starter, $999/mo growth). Add-ons for auditor review packages, industry-specific template libraries, and compliance partner marketplace referrals.",
+    "why_now": "New 2026 compliance deadlines push AI governance from optional best practice to operational requirement, while agentic features and vendor models change too quickly for annual PDF-based compliance. Mid-market firms need a lighter-weight alternative to enterprise governance suites.",
+    "moat": "Switching costs from accumulated evidence and standardized audit packets across multiple systems over time. Integrations and change-detection rules tuned to regulatory workflows create a defensible compliance operating layer.",
+    "go_to_market": "First 90 days: target Colorado mid-market employers using hiring AI plus at least one customer-facing AI workflow. Launch with SB24-205 impact assessment templates and a hiring bias-audit evidence checklist, distributed via boutique compliance consultancies and employment-law firms using a co-branded client portal.",
+    "risks": "Crowded AI governance space at the enterprise tier. Risk of being seen as giving legal advice. Integration complexity across diverse AI vendors. Proving ROI before a customer has an audit or enforcement event.",
+    "similar_companies": "Credo AI, Fiddler AI, Arthur, Monitaur, ModelOp",
+    "founder_fit": "Founder with compliance ops + B2B SaaS experience (GRC, security, or regulated ops) and strong product instincts for workflow tooling.",
+    "sources": [
+      "https://leg.colorado.gov/bill_files/47770/download",
+      "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+      "https://www.grandviewresearch.com/industry-analysis/ai-governance-market-report"
+    ]
   }
 ]
