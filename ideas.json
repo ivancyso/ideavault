@@ -1016,5 +1016,28 @@
       "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
       "https://www.grandviewresearch.com/industry-analysis/ai-governance-market-report"
     ]
+  },
+  {
+    "id": "041",
+    "slug": "hipaa-autopilot-continuous-evidence-for-healthtech-vendors",
+    "date": "2026-05-09",
+    "title": "HIPAA Autopilot — Continuous evidence for healthtech vendors",
+    "tagline": "Always-on HIPAA security compliance with machine-verifiable evidence, not screenshots.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "Data privacy software: $5.37B (2025) growing to ~$45.13B by 2034",
+    "problem": "Healthcare SaaS vendors and other business associates are increasingly required to prove strong cybersecurity controls to customers, auditors, and regulators, but evidence collection is still manual and brittle. A single security lead ends up maintaining policy docs, screenshots, and spreadsheet trackers that fall out of date the moment infrastructure changes.",
+    "solution": "A healthcare-first HIPAA compliance autopilot that continuously verifies technical safeguards (e.g., MFA, encryption, segmentation signals, vulnerability testing cadence) via integrations, then produces time-stamped evidence bundles and buyer-ready trust reports. It also manages HIPAA-specific workflows like business associate agreement (BAA) tracking and security questionnaire responses.",
+    "business_model": "B2B SaaS priced by systems-in-scope (cloud accounts, endpoints, environments) plus add-ons for questionnaire automation and continuous control monitoring; optional paid onboarding/readiness sprint.",
+    "why_now": "Cybersecurity expectations in healthcare are being made more explicit, pushing the industry from annual paperwork toward continuous assurance. At the same time, most evidence needed to prove safeguards now lives in APIs across identity, cloud, and security tools—making automation feasible in 2026.",
+    "moat": "Healthcare-specific integrations and a proprietary evidence graph that maps system telemetry to HIPAA safeguards, plus switching costs from historical evidence trails and standardized customer-facing trust reports.",
+    "go_to_market": "Sell to 50–500 employee healthtech vendors (business associates) who already face security questionnaires. Start with a paid 30-day ‘HIPAA readiness sprint’ that connects 8–10 core integrations (IdP, cloud, ticketing, vuln scanner) and outputs a customer-ready evidence bundle; partner with healthcare-focused MSPs/compliance consultancies.",
+    "risks": "Crowded adjacent market (general compliance automation). Healthcare procurement cycles can be slow. Final rule timing can shift. Integrations across legacy/medical-device-heavy environments can be complex.",
+    "similar_companies": "Vanta, Drata, Secureframe, Thoropass, Hyperproof, MetricStream",
+    "founder_fit": "Founder with experience in healthcare security/compliance (HIPAA) plus strong product engineering background building integrations across cloud/identity/security tooling.",
+    "sources": [
+      "https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/factsheet/index.html",
+      "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420"
+    ]
   }
 ]
