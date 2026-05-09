@@ -1039,5 +1039,31 @@
       "https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/factsheet/index.html",
       "https://www.fortunebusinessinsights.com/data-privacy-software-market-105420"
     ]
+  },
+  {
+    "id": "042",
+    "slug": "resilience-as-a-service-verified-home-mitigation-for-insurers",
+    "date": "2026-05-10",
+    "title": "Resilience-as-a-Service for Home Insurers — Verified mitigation that unlocks renewals",
+    "tagline": "Turn climate-risk scores into completed upgrades with audit-ready evidence.",
+    "category": "InsurTech",
+    "stage": "Idea",
+    "market_size": "US homeowners insurance: average premium $1,569 (2022)",
+    "problem": "Home insurers are tightening underwriting and issuing non-renewals in high-risk regions, creating churn and coverage gaps. Even when mitigation would reduce loss risk, carriers lack a scalable way to get actions completed and verified at the property level.",
+    "solution": "A co-branded homeowner portal that produces an address-specific mitigation plan (wildfire/flood/wind), helps execute upgrades via financing and contractor partners, and generates structured, audit-ready evidence packets. Verified mitigation data flows back into underwriting/renewal workflows via API.",
+    "business_model": "B2B SaaS sold to carriers/MGAs (platform fee + per-policyholder engagement fee). Add per-verification/inspection fees and optional revenue share on embedded financing for upgrades; optional contractor referral fees with strict QA.",
+    "why_now": "Climate risk reporting expectations and tightening hazard disclosures are pushing insurers to demonstrate active risk management, not just pricing or market exits. At the same time, better property datasets and remote assessments make continuous underwriting feasible—creating demand for standardized, verifiable mitigation inputs.",
+    "moat": "Standardized evidence format + underwriting integrations create switching costs. Over time, a proprietary dataset linking specific mitigations to claim outcomes enables better pricing and targeted intervention (data flywheel). Partner network and operational playbooks improve completion rates.",
+    "go_to_market": "Days 1–30: pick one hazard+state wedge (e.g., wildfire CA or flood FL/NJ), define a minimal evidence standard with one pilot carrier, and build the homeowner capture flow. Days 31–60: run a renewal-cohort pilot in high-risk ZIPs; measure completion rate and retention lift; integrate a lightweight API export into underwriting. Days 61–90: add 2–3 execution partners (inspectors/contractors) + one financing partner; expand to a second carrier segment and publish an insurer-facing playbook.",
+    "risks": "State-by-state regulatory differences on mitigation discounts and rating. Fraud or low-quality verification could create underwriting errors. Unit economics if inspections are overused. Homeowner adoption and completion friction.",
+    "similar_companies": "Climative, Jupiter Intelligence, Moody’s RMS, Floodbase, Guidewire HazardHub",
+    "founder_fit": "Founder with insurance product/underwriting ops experience plus a strong workflow/fintech operator (marketplaces, verification, or field ops). Ideally with carrier/MGA relationships and comfort navigating state-level regulation.",
+    "sources": [
+      "https://content.naic.org/natural-catastrophe-risk-resilience-resource-center",
+      "https://weissratings.com/en/weiss-news/homeowners-in-florida-and-california-dropped-by-their-insurance-companies-at-highest-rate-in-nation",
+      "https://www.floods.org/news-views/fema-news/new-resource-on-state-flood-risk-disclosure-requirements/",
+      "https://www.saiber.com/insights/publications/2026-04-07-navigating-new-jersey-enhanced-flood-disclosure-requirements",
+      "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance"
+    ]
   }
 ]
