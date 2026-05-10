@@ -1065,5 +1065,29 @@
       "https://www.saiber.com/insights/publications/2026-04-07-navigating-new-jersey-enhanced-flood-disclosure-requirements",
       "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance"
     ]
+  },
+  {
+    "id": "043",
+    "slug": "speed-to-power-data-center-grid-interconnection-os",
+    "date": "2026-05-11",
+    "title": "Speed-to-Power OS for Data Centers — Get grid capacity without multi-year delays",
+    "tagline": "A workflow + data platform that turns the interconnection maze into an executable plan.",
+    "category": "EnergyTech",
+    "stage": "Idea",
+    "market_size": "US interconnection queues held ~2,300 GW of active capacity at end of 2024 (2024)",
+    "problem": "In the US, large loads like AI data centers increasingly face years-long delays to secure grid power. The process is fragmented across utilities/ISOs, opaque on upgrade costs and timelines, and often requires repeated studies and stakeholder coordination that teams are not set up to manage.",
+    "solution": "Build a ‘Speed-to-Power OS’: a B2B platform that models siting + interconnection pathways, manages the full application/study workflow, and continuously updates probability-of-energization, cost ranges, and timeline risk as queue rules and study results change. It pairs software with a services layer for utility-facing filings and a marketplace of pre-vetted engineering/consulting partners.",
+    "business_model": "B2B SaaS priced per project/site (e.g., $50k–$250k setup + $5k–$25k/month), with add-on success fees for capacity secured, plus enterprise contracts with hyperscalers/developers. Optional ‘managed interconnection’ service margins via partner network.",
+    "why_now": "AI-driven load growth is colliding with an interconnection system built for a slower era; average generator interconnection timelines reached ~5 years in 2024. Federal and DOE programs are pushing new queue-management software and rulemaking for large-load interconnection, creating a window where buyers have budget and regulators welcome better process tooling.",
+    "moat": "Proprietary dataset of queue outcomes (timelines, upgrade costs, withdrawal cascades) combined with region-specific playbooks becomes a forecasting advantage. Switching costs rise as the platform becomes the system of record for filings, studies, and stakeholder communications, and as integrations with engineering models and utility portals deepen.",
+    "go_to_market": "First 30 days: pick one region with acute pain (e.g., PJM or ERCOT load requests) and interview 20 developers, data center site selectors, and EPCs; map the end-to-end workflow and standard documents. Days 31–60: launch a concierge pilot for 2–3 data center projects—deliver a weekly ‘energization plan’ with timeline/cost scenarios and a live queue tracker; build the core data model and document automation. Days 61–90: convert pilots into annual contracts, publish anonymized benchmarks (time-to-study, upgrade-cost ranges) to drive inbound, and partner with 2–3 engineering firms to offer bundled delivery.",
+    "risks": "Utility data access and integration may be slow; start with public queue data and customer-provided documents. Forecasting upgrade costs is uncertain; communicate ranges and confidence bands. Sales cycles can be long with hyperscalers; target mid-market developers/EPCs first. Regulatory changes can shift workflows; build modular rule engines per ISO/utility.",
+    "similar_companies": "GridUnity, Pearl Street Technologies, Tapestry, Ascend Analytics",
+    "founder_fit": "Founder with experience in energy markets/interconnection (ISO, utility, or developer) plus strong product chops; ideally paired with someone who has sold enterprise software to infrastructure buyers.",
+    "sources": [
+      "https://rmi.org/interconnection-reform-ai-data-centers-generator-queues/",
+      "https://www.energy.gov/cmei/i2x/i2x-innovative-queue-management-solutions-iqms-clean-energy-interconnection-and-0",
+      "https://ifp.org/interconnection-for-ai/"
+    ]
   }
 ]
