@@ -1089,5 +1089,30 @@
       "https://www.energy.gov/cmei/i2x/i2x-innovative-queue-management-solutions-iqms-clean-energy-interconnection-and-0",
       "https://ifp.org/interconnection-for-ai/"
     ]
+  },
+  {
+    "id": "044",
+    "slug": "speed-to-power-large-load-interconnection-os",
+    "date": "2026-05-12",
+    "title": "Speed-to-Power OS — Workflow + feasibility software for data center grid interconnection",
+    "tagline": "Turn large-load interconnection from a black box into a managed pipeline.",
+    "category": "EnergyTech",
+    "stage": "Idea",
+    "market_size": "$11.2M US DOE iQMS funding for queue-management software pilots (2024–2025 program) as a near-term budget signal",
+    "problem": "Large-load projects (often 20MW+) face slow, opaque interconnection processes with unclear timelines and upgrade costs until late-stage studies. Information is fragmented across emails, PDFs, and consultants, making it hard to compare sites, manage milestones, and avoid surprise delays or network-upgrade bills.",
+    "solution": "A customer-side ‘Speed-to-Power’ operating system that combines site feasibility screening, end-to-end interconnection case management, and upgrade delivery tracking. It standardizes documentation, milestone tracking, and scenario planning (staged energization, curtailment, co-located storage/generation) so developers can make faster, higher-confidence decisions.",
+    "business_model": "B2B SaaS for data center developers and industrial site owners: feasibility portfolio subscriptions ($25k–$75k/year), workflow + project management ($100k–$300k per active project/year), and enterprise multi-year deals for hyperscalers. Add usage-based fees for simulation runs and marketplace referral/transaction revenue from vetted engineering/contractor partners.",
+    "why_now": "2025–2026 saw a surge in transmission-level ‘large load’ requests from AI data centers and electrified industry, pushing regulators and grid operators toward standardization and faster processing. Interconnection-study automation has proven large speedups, and federal programs are now funding queue-management software pilots—creating both urgency and budget to adopt new tooling.",
+    "moat": "Workflow lock-in + proprietary dataset: as projects run through the platform, it accumulates benchmarks on timelines, upgrade drivers, and utility-specific patterns that improve predictions. Switching costs rise as documentation, stakeholder history, and upgrade delivery tracking live in one system of record.",
+    "go_to_market": "First 90 days: target independent data center developers building 50–200MW in two regions. Sell a paid two-week ‘Speed-to-Power Assessment’ (ranked sites + timeline/cost risk register) delivered inside the product. Partner with 2 interconnection engineering firms for deal flow and domain credibility, then publish a weekly anonymized ‘interconnection risk’ brief to build inbound demand.",
+    "risks": "Data quality and uncertainty in early-stage screening. Platform must create value without deep utility integration. High-stakes decisions increase liability exposure. Long enterprise procurement cycles unless the assessment wedge proves immediate ROI.",
+    "similar_companies": "GridUnity, Pearl Street Technologies (SUGAR), Nira Energy, AWS (interconnection simulation guidance)",
+    "founder_fit": "Founder with power systems + enterprise SaaS experience (or ex-data center energy procurement lead) who can translate grid engineering workflows into product and sell to infrastructure buyers.",
+    "sources": [
+      "https://www.ferc.gov/news-events/news/commissioner-rosners-letters-isosrtos-regarding-interconnection-automation",
+      "https://www.energy.gov/cmei/i2x/i2x-innovative-queue-management-solutions-iqms-clean-energy-interconnection-and-0",
+      "https://www.gridunity.com/resources/southwest-power-pool-selects-gridunity-for-interconnection-life-cycle-management",
+      "https://aws.amazon.com/energy-utilities/solutions/generation-interconnection-simulation/"
+    ]
   }
 ]
