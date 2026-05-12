@@ -1114,5 +1114,32 @@
       "https://www.gridunity.com/resources/southwest-power-pool-selects-gridunity-for-interconnection-life-cycle-management",
       "https://aws.amazon.com/energy-utilities/solutions/generation-interconnection-simulation/"
     ]
+  },
+  {
+    "id": "045",
+    "slug": "fhir-first-prior-auth-copilot",
+    "date": "2026-05-13",
+    "title": "FHIR-first Prior Authorization Copilot — Cut denials and make clinics CMS-0057-F ready",
+    "tagline": "Automate prior auth packets, submissions, and follow-ups across every payer channel.",
+    "category": "HealthTech",
+    "stage": "Idea",
+    "market_size": "US revenue cycle management market: $172.24B (2024)",
+    "problem": "Specialty providers lose hours each week to prior authorizations across payer portals, fax, and phone workflows, delaying care and pushing patients to competitors. The work is repetitive but high-stakes: missing one required clinical detail can trigger a denial, appeals, and weeks of rescheduling.",
+    "solution": "A FHIR-first prior authorization copilot that detects when PA is needed, extracts the exact clinical evidence payers require from the chart, generates an auditable submission packet, and submits via the best available channel (FHIR/X12/portal/fax/phone) with exception-based human fallback. It tracks status, requests missing info proactively, and auto-generates appeal packets when denied.",
+    "business_model": "B2B SaaS to specialty clinics/ASCs/imaging centers: $1.5k–$5k per location per month + per-authorization fee or performance-based ‘approval lift’ pricing. Optional implementation + payer-rule-pack services for the first 60 days.",
+    "why_now": "CMS-0057-F forces impacted payers to speed decision timeframes starting in 2026 and implement FHIR-based Prior Authorization APIs by 2027, pushing the ecosystem onto standardized electronic rails. At the same time, clinics can’t hire their way out of admin burden, and modern AI is finally capable of reliable chart-to-form extraction when constrained by rules and audit logs.",
+    "moat": "Proprietary payer-rule library plus a data flywheel on payer behavior (what evidence wins, turnaround times by payer/procedure, denial reasons). Switching costs grow as the system becomes embedded in scheduling and RCM workflows with historical authorization/appeal records.",
+    "go_to_market": "First 90 days: pick one specialty (radiology or orthopedics) in one payer-concentrated metro; run a ‘PA cleanup sprint’ analyzing 90 days of denials; ship the first payer-rule packs; integrate lightly via FHIR/HL7 and document ingestion; guarantee measurable outcomes (e.g., 30–50% faster median turnaround and 15–25% fewer first-pass denials). Expand location-by-location inside the same clinic group.",
+    "risks": "Regulatory + trust risk: must provide auditability and prevent fabricated clinical claims. Integration variance across EHRs/payers can slow deployments. Payers may change criteria frequently. Large RCM incumbents could bundle PA automation into broader suites.",
+    "similar_companies": "Waystar, Availity, CoverMyMeds, Surescripts",
+    "founder_fit": "Founder with healthcare RCM/operations experience (clinic billing or prior auth teams) plus strong interoperability engineering (FHIR/X12) and applied AI/ML for document + workflow automation.",
+    "sources": [
+      "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way",
+      "https://www.mgma.com/articles/the-prior-authorization-landscape-in-2025",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11425057/",
+      "https://www.grandviewresearch.com/industry-analysis/us-revenue-cycle-management-rcm-market",
+      "https://build.fhir.org/ig/HL7/davinci-pas/"
+    ]
   }
 ]
