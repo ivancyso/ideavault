@@ -1141,5 +1141,30 @@
       "https://www.grandviewresearch.com/industry-analysis/us-revenue-cycle-management-rcm-market",
       "https://build.fhir.org/ig/HL7/davinci-pas/"
     ]
+  },
+  {
+    "id": "046",
+    "slug": "proof-of-person-call-center",
+    "date": "2026-05-14",
+    "title": "Proof of Person for Calls — Deepfake-resistant verification for contact centers",
+    "tagline": "Block AI voice impersonation without turning support calls into an interrogation.",
+    "category": "Cybersecurity",
+    "stage": "Idea",
+    "market_size": "Voice biometrics market: $3.06B (2026) → $6.54B (2031)",
+    "problem": "AI voice generation and replay attacks are making phone-based account takeovers and social engineering dramatically easier. Traditional call center verification (knowledge questions, SMS codes, agent intuition) is brittle, high-friction, and increasingly ineffective for high-risk actions like payout changes and password resets.",
+    "solution": "A developer-friendly API + agent desktop widget that continuously validates ‘who is really on the line’ using liveness/synthetic-speech detection, adaptive step-up challenges, and optional device/app binding (passkeys or in-app call handshake). It returns real-time risk scores, recommended verification steps, and a tamper-evident audit trail for disputes.",
+    "business_model": "B2B SaaS priced by protected call volume (platform fee + per-call or per-minute usage). Premium tiers for on-prem / data residency, forensic analytics, and custom step-up policies by call type.",
+    "why_now": "In 2025–2026, AI voice scams became mainstream, forcing budget and executive attention, while contact center stacks (Twilio Flex, Amazon Connect, Genesys, NICE, Five9) and identity tech (passkeys, device binding) made real-time verification workflows practical to deploy. Deepfake detection is also shifting toward operational benchmarks, pushing buyers to demand production-grade assurance.",
+    "moat": "Proprietary corpus of in-the-wild synthetic speech and impersonation patterns + outcome-labeled verification events creates a data flywheel. Switching costs rise as the platform becomes embedded in high-risk call flows and becomes the system of record for phone authentication audit trails.",
+    "go_to_market": "First 90 days: (1) pick one wedge flow in one vertical (e.g., fintech password resets + payout changes), (2) run 2–3 design-partner pilots with a narrow scope and clear loss metrics, (3) ship a deep integration for one platform (Twilio Flex or Amazon Connect) with an agent UX that reduces handle time, (4) sell to fraud/identity leaders with an ROI model tied to impersonation-loss reduction and fewer manual verification scripts.",
+    "risks": "False positives can lock out legitimate customers; step-up UX must be careful. Attackers adapt quickly; models must be continuously updated and adversarially tested. Privacy/compliance requirements differ across industries and states. Incumbent call analytics/voice biometrics vendors may extend into session-level assurance.",
+    "similar_companies": "Pindrop, Hiya, First Orion, Nametag, Resemble AI",
+    "founder_fit": "Strong fit for founders with contact-center/telephony experience plus applied ML for audio and fraud risk, or former fintech/bank fraud leaders who’ve owned call-center loss metrics.",
+    "sources": [
+      "https://www.hiya.com/newsroom/press-releases/state-of-the-call-2026-ai-deepfake-voice-calls-hit-1-in-4-americans-as-consumers-say-scammers-are-beating-mobile-network-operators-2-to-1",
+      "https://ai-challenges.nist.gov/forensics",
+      "https://www.mordorintelligence.com/industry-reports/voice-biometrics-market",
+      "https://www.pindrop.com/solution/deepfake-detection/"
+    ]
   }
 ]
